@@ -1,0 +1,38 @@
+{
+  "name": "AcFunTemplateServer",
+  "version": "0.0.8",
+  "description": "template render server",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "amqplib": "^0.2.0",
+    "jade": "^1.3.1",
+    "q": "^1.0.1",
+    "eventproxy": "^0.3.1",
+    "should": "^4.0.4",
+    "node-uuid": "^1.4.1",
+    "tracer": "^0.7.1",
+    "when": "^3.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cuebyte/TemplateServer"
+  },
+  "keywords": [
+    "template",
+    "render",
+    "node"
+  ],
+  "author": "cuebyte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuebyte/TemplateServer/issues"
+  },
+  "homepage": "https://github.com/cuebyte/TemplateServer"
+}
