@@ -14,7 +14,7 @@ var logger = tracer.console({
     fs.open('./log/templateServer.log', 'a', 0666, function(e, id) {
       if(e) console.log(e);
       fs.write(id, data.output+'\n', null, 'utf8', function() {
-        fs.close(id, function(){})
+        fs.close(id, function(){});
       })
     })
   }
