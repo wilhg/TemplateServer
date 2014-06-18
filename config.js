@@ -1,8 +1,10 @@
-// 通用配置
-var commonBroker1 = "/";
+/**
+ * 使用RabbitMQ的Topic模式
+ * 以下是配置
+ */
 
+// 通用配置
 var URL = "amqp://node:node@10.232.0.202/" + "/";
-// end
 
 var exchange1 = "topic_test";
 exports.topic_emit1 = {

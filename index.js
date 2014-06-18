@@ -20,6 +20,8 @@ var logger = tracer.console({
   }
 });
 var render = new Render();
+
+// 打开RPC服务
 var rpcStart = function(err) {
   if(err) {
     logger.error(err);
@@ -27,4 +29,5 @@ var rpcStart = function(err) {
   }
   rpc(render.render);
 };
+
 render.init('./test/test_data', 'jade', rpcStart);

@@ -14,11 +14,11 @@ var data = {
   }
 };
 var req1 = {
-  func: "hello",
+  name: "hello",
   data: data
 };
 var req2 = {
-  func: "首页",
+  name: "首页",
   data: data
 };
 ///////// END /////////////
