@@ -2,7 +2,7 @@
  * Created by cuebyte on 2014/6/13.
  */
 
-var Render = require("./lib/render").Render
+var Render = require("./lib/render")
   , rpc = require("./lib/rpc").rpc
   , tracer = require('tracer')
   , fs = require("fs");
